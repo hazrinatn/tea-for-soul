@@ -1,0 +1,67 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  margin: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 3px solid #cbc0d3;
+  color: #124559;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: larger;
+  font-weight: 400;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5rem;
+}
+
+li{
+  border: 0.5px solid #e8eddf;
+  width: 20%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden{
+	display: none;
+}
+
+img {
+  width: 25%;
+}
+
+.white {
+  color: black;
+}
